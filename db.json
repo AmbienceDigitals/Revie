@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "11we3",
+      "firstName": "ezekiel",
+      "lastName": "ayano",
+      "username": "ambience",
+      "password": "easy",
+      "email": "ezekielayano@gmail.com"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "wer32",
+      "title": "landlord issues",
+      "review": {
+        "text": "our landlord is very cranky and noisy"
+      }
+    }
+  ],
+  "user": []
+}
