@@ -21,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(morgan("dev"));
 app.use(cors());
-app.use('/',usersRouter);
+app.use('/users',usersRouter);
 app.use('/reviews', reviewsRouter)
 app.use('/api-docs',swaggerUI.serve,swaggerUI.setup(docs));
 
