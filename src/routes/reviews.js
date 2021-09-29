@@ -71,7 +71,7 @@ router.put('/:id', (req,res) => {
         req.app.db.get("reviews").find({
             id:req.params.id
         })
-        .assign({ review: review })
+        .assign({ title: title, review: review })
         .write();
 
         return res.send("review updated");
